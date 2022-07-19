@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case configuring]]>
+    </line>
+    <line>
+      <![CDATA[Test case started]]>
+    </line>
+    <line>
+      <![CDATA[Test case executed succesfully...]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured]]>
+    </line>
+    <line>
+      <![CDATA[Test case run is succesfull>>>..]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-19T22:12:45 IST" name="Suite" finished-at="2022-07-19T22:13:19 IST" duration-ms="33753">
+    <groups>
+    </groups>
+    <test started-at="2022-07-19T22:12:45 IST" name="Test" finished-at="2022-07-19T22:13:19 IST" duration-ms="33753">
+      <class name="teascase.Testcase1">
+        <test-method is-config="true" signature="getdata()[pri:0, instance:teascase.Testcase1@52719fb6]" started-at="2022-07-19T22:12:43 IST" name="getdata" finished-at="2022-07-19T22:12:45 IST" duration-ms="1816" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case configuring]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method is-config="true" signature="base(java.lang.String)[pri:0, instance:teascase.Testcase1@52719fb6]" started-at="2022-07-19T22:12:45 IST" name="base" finished-at="2022-07-19T22:13:05 IST" duration-ms="19922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method signature="login()[pri:0, instance:teascase.Testcase1@52719fb6]" started-at="2022-07-19T22:13:05 IST" name="login" finished-at="2022-07-19T22:13:08 IST" duration-ms="3396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started]]>
+            </line>
+            <line>
+              <![CDATA[Test case executed succesfully...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="capturesnap(org.testng.ITestResult)[pri:0, instance:teascase.Testcase1@52719fb6]" started-at="2022-07-19T22:13:08 IST" name="capturesnap" finished-at="2022-07-19T22:13:09 IST" duration-ms="1032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Testcase1.login()[pri:0, instance:teascase.Testcase1@52719fb6] output=Test case started]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot captured]]>
+            </line>
+            <line>
+              <![CDATA[Test case run is succesfull>>>..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- capturesnap -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:teascase.Testcase1@52719fb6]" started-at="2022-07-19T22:13:09 IST" name="closebrowser" finished-at="2022-07-19T22:13:19 IST" duration-ms="9360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- teascase.Testcase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
