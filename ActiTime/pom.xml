@@ -12,8 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    
   </properties>
   
   <build>
@@ -40,38 +39,39 @@
 				
   <dependencies>
   
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+   
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.6.1</version>
+   <version>6.14.3</version>
     <scope>test</scope>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.3.0</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
     <version>5.2.2</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
+
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-scratchpad</artifactId>
     <version>5.2.2</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
 </dependency>
+
+
 
 </dependencies>
 
